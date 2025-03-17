@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Display</title>
+</head>
+<body>
+    <h1>Antrian Saat Ini</h1>
+    <ul id="queue-list"></ul>
+
+    <script>
+        const socket = new WebSocket('ws://localhost:3000');
+        const queueList = document.getElementById('queue-list');
+
+        socket.onmessage = (event) => {
+            const queues = JSON.parse(event.data);
+            queueList.innerHTML = '';
+            queues.forEach(queue => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `Nomor: ${queue.nomor} - Nama: ${queue.nama}`;
+                queueList.appendChild(listItem);
+            });
+        };
+    </script>
+</body>
+</html>
+<script>
+    const socket = new WebSocket('ws://localhost:3000');
+
+    socket.onmessage = (event) => {
+        const queues = JSON.parse(event.data);
+        queues.forEach(queue => {
+            const utterance = new SpeechSynthesisUtterance(`Nomor antrian ${queue.nomor} menuju loket`);
+            speechSynthesis.speak(utterance);
+        });
+    };
+</script>

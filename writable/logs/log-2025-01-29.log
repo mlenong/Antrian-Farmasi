@@ -1,0 +1,12 @@
+CRITICAL - 2025-01-29 12:33:12 --> ErrorException: Cannot redeclare App\Controllers\AntrianController::getAntrianRacikan()
+[Method: GET, Route: antrian/hari-ini]
+in APPPATH\Controllers\AntrianController.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 12:33:12 --> ErrorException: Cannot redeclare App\Controllers\AntrianController::getAntrianRacikan()
+[Method: GET, Route: antrian/racikan]
+in APPPATH\Controllers\AntrianController.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 12:33:12 --> ErrorException: Cannot redeclare App\Controllers\AntrianController::getAntrianRacikan()
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

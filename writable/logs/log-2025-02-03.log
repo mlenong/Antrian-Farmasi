@@ -1,0 +1,66 @@
+ERROR - 2025-02-03 14:10:23 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call</pre>
+</body>
+</html>
+
+ERROR - 2025-02-03 14:10:27 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /done</pre>
+</body>
+</html>
+
+ERROR - 2025-02-03 14:10:30 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /done</pre>
+</body>
+</html>
+
+ERROR - 2025-02-03 14:10:36 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call</pre>
+</body>
+</html>
+
+ERROR - 2025-02-03 14:10:41 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call</pre>
+</body>
+</html>
+
+ERROR - 2025-02-03 14:11:06 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call</pre>
+</body>
+</html>
+

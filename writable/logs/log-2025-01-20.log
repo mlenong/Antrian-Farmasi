@@ -1,0 +1,398 @@
+CRITICAL - 2025-01-20 17:35:57 --> TypeError: http_build_query(): Argument #1 ($data) must be of type array, null given
+[Method: POST, Route: antrian/call/undefined]
+in APPPATH\Controllers\AntrianController.php on line 127.
+ 1 APPPATH\Controllers\AntrianController.php(127): http_build_query(null)
+ 2 APPPATH\Controllers\AntrianController.php(84): App\Controllers\AntrianController->sendToWebSocket('/call', null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->callAntrian('undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 17:36:03 --> TypeError: http_build_query(): Argument #1 ($data) must be of type array, null given
+[Method: POST, Route: antrian/call/undefined]
+in APPPATH\Controllers\AntrianController.php on line 127.
+ 1 APPPATH\Controllers\AntrianController.php(127): http_build_query(null)
+ 2 APPPATH\Controllers\AntrianController.php(84): App\Controllers\AntrianController->sendToWebSocket('/call', null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->callAntrian('undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-20 17:37:53 --> Invalid data for WebSocket request: Data must be an array
+ERROR - 2025-01-20 17:38:21 --> Invalid data for WebSocket request: Data must be an array
+ERROR - 2025-01-20 17:38:50 --> Invalid data for WebSocket request: Data must be an array
+ERROR - 2025-01-20 17:43:47 --> Invalid data for WebSocket request: Data must be an array
+ERROR - 2025-01-20 17:43:57 --> Invalid data for WebSocket request: Data must be an array
+CRITICAL - 2025-01-20 18:16:12 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::whereNotNull
+[Method: GET, Route: antrian/hari-ini]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(35): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:16:14 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::whereNotNull
+[Method: GET, Route: antrian/hari-ini]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(35): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-20 18:17:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4 in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 18:17:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+[Method: GET, Route: antrian/hari-ini]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:17:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:17:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-20 18:17:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4 in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 18:17:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+[Method: GET, Route: antrian/hari-ini]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:17:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:17:35 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-20\'
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nomor`, `antrian`, `tanggal`, `no_reg`, `nama`, `antrian_aktif`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `process_at` `process_at` IS NOT NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AntrianController.php(38): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianHariIni()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:36:22 --> ParseError: syntax error, unexpected identifier "html"
+[Method: GET, Route: antrian/]
+in APPPATH\Views\antrian\index.php on line 151.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('antrian/index', [], true)
+ 3 APPPATH\Controllers\AntrianController.php(21): view('antrian/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 18:37:09 --> ParseError: syntax error, unexpected identifier "html"
+[Method: GET, Route: antrian/]
+in APPPATH\Views\antrian\index.php on line 151.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('antrian/index', [], true)
+ 3 APPPATH\Controllers\AntrianController.php(21): view('antrian/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:38:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:38:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:39:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:39:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:39:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 20:39:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${item.id}"
+[Method: POST, Route: antrian/done/$%7Bitem.id%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('antrian/done/${item.id}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('antrian/done/${item.id}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 21:40:42 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in D:\xampp\htdocs\farmasi\system\Model.php on line 928
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->limit('1')
+ 2 APPPATH\Controllers\AntrianController.php(61): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-20 21:41:46 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in D:\xampp\htdocs\farmasi\system\Model.php on line 928
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->limit('1')
+ 2 APPPATH\Controllers\AntrianController.php(63): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-20 22:49:11 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /racikan</pre>
+</body>
+</html>
+

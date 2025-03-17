@@ -1,0 +1,33 @@
+ERROR - 2025-02-08 18:52:45 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call-ekse</pre>
+</body>
+</html>
+
+ERROR - 2025-02-08 18:52:55 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call-ekse</pre>
+</body>
+</html>
+
+ERROR - 2025-02-08 18:54:00 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /call-ekse</pre>
+</body>
+</html>
+

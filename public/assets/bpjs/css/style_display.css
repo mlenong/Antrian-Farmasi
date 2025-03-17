@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3rem;
+    color: #333;
+}
+
+.container-fluid {
+    display: flex;
+    height: 80vh;
+    padding: 20px;
+    gap: 10px;
+}
+
+.proses, .antrian {
+    border: 3px solid black;
+    padding: 10px;
+}
+.proses {
+    flex: 1;
+    color: white;
+    background-color: #343a40;
+}
+.antrian {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.antrian > div {
+    flex: 1;
+    border-bottom: 3px solid black;
+}
+.antrian > div:last-child {
+    border-bottom: none;
+}
+.header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+.queue-item {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.flash {
+    animation: flash 1s linear infinite;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.queue-container {
+    position: relative;
+    overflow: hidden;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.queue-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    animation: scrollDown 10s linear infinite;
+    align-items: center;
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.running-text {
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    color:rgb(0, 0, 0);
+}
+
+.running-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 35s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+@media (max-width: 1366px) {
+    .queue-section {
+        font-size: 4.9em;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+}

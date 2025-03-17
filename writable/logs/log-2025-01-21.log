@@ -1,0 +1,1180 @@
+ERROR - 2025-01-21 11:02:55 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:02:59 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:26:58 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:27:03 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:28:10 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:30:24 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:30:45 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 11:47:48 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+CRITICAL - 2025-01-21 13:11:08 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php on line 801
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3434.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(801): CodeIgniter\Database\BaseBuilder->hasOperator(0)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(717): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', false, null, 'AND ', true)
+ 3 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->where(false)
+ 4 APPPATH\Controllers\AntrianController.php(49): CodeIgniter\Model->__call('where', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:12:52 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::when(), 1 passed in D:\xampp\htdocs\farmasi\system\Model.php on line 928 and at least 2 expected
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Traits\ConditionalTrait.php on line 30.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->when(false)
+ 2 APPPATH\Controllers\AntrianController.php(49): CodeIgniter\Model->__call('when', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:12:54 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::when(), 1 passed in D:\xampp\htdocs\farmasi\system\Model.php on line 928 and at least 2 expected
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Traits\ConditionalTrait.php on line 30.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->when(false)
+ 2 APPPATH\Controllers\AntrianController.php(49): CodeIgniter\Model->__call('when', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:16:53 --> ErrorException: Undefined property: App\Controllers\AntrianController::$db
+[Method: GET, Route: antrian/racikan]
+in APPPATH\Controllers\AntrianController.php on line 46.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AntrianController::$db', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 13:17:32 --> mysqli_sql_exception: Table 'simrs.antrian' doesn't exist in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 D:\xampp\htdocs\farmasi\system\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...', Array)
+#4 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('query', Array)
+#5 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+#6 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-01-21 13:17:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = ? AND sts_racikan = ? AND end_at IS NOT NULL', [...])
+ 2 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('query', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:17:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = ? AND sts_racikan = ? AND end_at IS NOT NULL', [...])
+ 4 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('query', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:17:32 --> [Caused by] mysqli_sql_exception: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = ? AND sts_racikan = ? AND end_at IS NOT NULL', [...])
+ 5 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:20:27 --> InvalidArgumentException: whereNotIn() expects $values to be of type array or closure
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 959.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(871): CodeIgniter\Database\BaseBuilder->_whereIn('end_at', null, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->whereNotIn('end_at', null)
+ 3 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:21:30 --> InvalidArgumentException: whereNotIn() expects $values to be of type array or closure
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 959.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(871): CodeIgniter\Database\BaseBuilder->_whereIn('end_at', null, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->whereNotIn('end_at', null)
+ 3 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:21:43 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::not
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('not', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:21:44 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::not
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('not', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:31:49 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::not
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('not', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:31:51 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::not
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(50): CodeIgniter\Model->__call('not', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 13:36:57 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 13:36:59 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 13:37:00 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 13:37:01 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 13:42:29 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+CRITICAL - 2025-01-21 13:44:48 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::setQuery
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('setQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:44:56 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::setQuery
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('setQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:44:59 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::setQuery
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('setQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:45:04 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::setQuery
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('setQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 13:46:04 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::setQuery
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(46): CodeIgniter\Model->__call('setQuery', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:05:30 --> mysqli_sql_exception: Table 'simrs.antrian' doesn't exist in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 D:\xampp\htdocs\farmasi\system\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', Array)
+#5 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+#6 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-01-21 15:05:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:30 --> [Caused by] mysqli_sql_exception: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 5 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:05:31 --> mysqli_sql_exception: Table 'simrs.antrian' doesn't exist in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 D:\xampp\htdocs\farmasi\system\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', Array)
+#5 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+#6 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-01-21 15:05:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:31 --> [Caused by] mysqli_sql_exception: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 5 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:05:45 --> mysqli_sql_exception: Table 'simrs.kpo_trn_rajal' doesn't exist in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM k...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 D:\xampp\htdocs\farmasi\system\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', Array)
+#5 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+#6 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-01-21 15:05:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.kpo_trn_rajal' doesn't exist
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.kpo_trn_rajal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:05:45 --> [Caused by] mysqli_sql_exception: Table 'simrs.kpo_trn_rajal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 4 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM kpo_trn_rajal WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at IS NOT NULL')
+ 5 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:08:07 --> mysqli_sql_exception: Table 'simrs.antrian' doesn't exist in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM a...')
+#3 D:\xampp\htdocs\farmasi\system\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', Array)
+#5 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+#6 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-01-21 15:08:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+[Method: GET, Route: antrian/racikan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 2 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:08:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 3 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 4 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-21 15:08:07 --> [Caused by] mysqli_sql_exception: Table 'simrs.antrian' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 4 SYSTEMPATH\Model.php(924): CodeIgniter\Database\BaseConnection->query('SELECT * FROM antrian WHERE tanggal = \'2025-01-21\' AND sts_racikan = \'Y\' AND end_at != NULL')
+ 5 APPPATH\Controllers\AntrianController.php(47): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:08:43 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:08:44 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+CRITICAL - 2025-01-21 15:32:31 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+[Method: GET, Route: antrian/racikan]
+in APPPATH\Controllers\AntrianController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianRacikan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-21 15:33:24 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:42:36 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:44:54 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:45:14 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:48:07 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:48:50 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:48:54 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:48:56 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:58:49 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 15:59:51 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:02:56 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:03:02 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:09:06 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:09:30 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:09:31 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:09:49 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:09:53 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:10:09 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:10:16 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:11:09 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:12:04 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:12:13 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:13:43 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:13:50 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:14:56 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:19:06 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:19:07 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:22:46 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:22:47 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:29:27 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:29:36 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:29:38 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:30:00 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:33:33 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:33:45 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:33:56 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:34:05 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:35:01 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:40:53 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:40:58 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:45:23 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:45:27 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:51:25 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:55:06 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 16:56:02 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:04:15 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:04:25 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:06:43 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:06:46 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:06:52 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+
+ERROR - 2025-01-21 17:07:18 --> Failed to send data to WebSocket server: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /doneList</pre>
+</body>
+</html>
+

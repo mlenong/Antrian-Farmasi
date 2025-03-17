@@ -1,0 +1,1087 @@
+ERROR - 2025-01-23 17:11:12 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:15 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:17 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:19 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:22 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:24 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:26 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:29 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:31 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:11:35 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:35:24 --> Failed to send data to WebSocket server: 
+ERROR - 2025-01-23 17:35:30 --> Failed to send data to WebSocket server: 
+CRITICAL - 2025-01-23 17:53:34 --> ErrorException: unlink(D:\xampp\htdocs\farmasi\writable\debugbar/debugbar_1737391351.114331.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xampp\\htdocs\\farmasi\\writable\\debugbar/debugbar_1737391351.114331.json): No such file or directory', 'D:\\xampp\\htdocs\\farmasi\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('D:\\xampp\\htdocs\\farmasi\\writable\\debugbar/debugbar_1737391351.114331.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(517): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1737629613.649346', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-23 19:32:27 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:32:28 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:35:56 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:35:57 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:36:15 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:36:32 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:36:58 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:37:23 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-23 19:42:34 --> mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause' in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `a...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `a...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-23 19:42:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:34 --> [Caused by] mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-23 19:42:35 --> mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause' in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `a...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `a...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-23 19:42:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:35 --> [Caused by] mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-23 19:42:59 --> mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause' in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `a...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `a...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-23 19:42:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:42:59 --> [Caused by] mysqli_sql_exception: Unknown column 'proccess_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_aktif` = \'T\'
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_aktif` = :antrian_aktif:
+AND `call_at` IS NULL
+AND `proccess_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AntrianController.php(98): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:43:10 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:43:15 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:43:25 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 19:44:12 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:08:13 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:08:43 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:08:45 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 100.
+ 1 APPPATH\Controllers\AntrianController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:10:16 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 83.
+ 1 APPPATH\Controllers\AntrianController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:10:27 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 83.
+ 1 APPPATH\Controllers\AntrianController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:12:29 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:12:30 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:12:34 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:15:19 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:15:39 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:18:50 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:18:51 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:18:56 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:27:25 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 20:27:31 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: antrian/antrianSekarang]
+in APPPATH\Controllers\AntrianController.php on line 101.
+ 1 APPPATH\Controllers\AntrianController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\farmasi\\app\\Controllers\\AntrianController.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:18:41 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #3 ($escape) must be of type ?bool, string given, called in D:\xampp\htdocs\farmasi\system\Model.php on line 928
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseBuilder.php on line 843.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->whereIn('antrian_aktif', 'T', 'Y')
+ 2 APPPATH\Controllers\AntrianController.php(62): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:18:44 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #3 ($escape) must be of type ?bool, string given, called in D:\xampp\htdocs\farmasi\system\Model.php on line 928
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseBuilder.php on line 843.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->whereIn('antrian_aktif', 'T', 'Y')
+ 2 APPPATH\Controllers\AntrianController.php(62): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:18:45 --> TypeError: CodeIgniter\Database\BaseBuilder::whereIn(): Argument #3 ($escape) must be of type ?bool, string given, called in D:\xampp\htdocs\farmasi\system\Model.php on line 928
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseBuilder.php on line 843.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->whereIn('antrian_aktif', 'T', 'Y')
+ 2 APPPATH\Controllers\AntrianController.php(62): CodeIgniter\Model->__call('whereIn', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:34 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:36 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:36 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:37 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:40 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:44 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:46 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:47:55 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(64): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 21:58:23 --> BadMethodCallException: Call to undefined method App\Models\AntrianModel::orderByRaw
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AntrianController.php(65): CodeIgniter\Model->__call('orderByRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-23 22:23:15 --> mysqli_sql_exception: Unknown column 'antrian_atif' in 'where clause' in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `a...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `a...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(75): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-23 22:23:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'antrian_atif' in 'where clause'
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AntrianController.php(75): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 22:23:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'antrian_atif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AntrianController.php(75): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 22:23:15 --> [Caused by] mysqli_sql_exception: Unknown column 'antrian_atif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AntrianController.php(75): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+ERROR - 2025-01-23 22:23:55 --> mysqli_sql_exception: Unknown column 'antrian_atif' in 'where clause' in D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\farmasi\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `a...', 0)
+#1 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `a...')
+#2 D:\xampp\htdocs\farmasi\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `a...')
+#3 D:\xampp\htdocs\farmasi\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `a...', Array, false)
+#4 D:\xampp\htdocs\farmasi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\farmasi\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\farmasi\app\Controllers\AntrianController.php(69): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+#8 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+#9 D:\xampp\htdocs\farmasi\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\farmasi\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\farmasi\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\farmasi\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\farmasi\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-23 22:23:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'antrian_atif' in 'where clause'
+[Method: GET, Route: antrian/antrianSekarang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\AntrianController.php(69): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 22:23:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'antrian_atif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\AntrianController.php(69): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
+CRITICAL - 2025-01-23 22:23:55 --> [Caused by] mysqli_sql_exception: Unknown column 'antrian_atif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = \'2025-01-23\'
+AND `antrian_atif` = \'Y\'
+AND `sts_racikan` = \'T\'
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `antrian`
+FROM `trn_kpo_rajal`
+WHERE `tanggal` = :tanggal:
+AND `antrian_atif` = :antrian_atif:
+AND `sts_racikan` = :sts_racikan:
+AND `call_at` IS NULL
+AND `end_at` IS NULL
+ORDER BY `antrian` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AntrianController.php(69): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AntrianController->getAntrianSekarang()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AntrianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\farmasi\\public\\index.php')
