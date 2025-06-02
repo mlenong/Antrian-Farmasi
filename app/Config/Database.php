@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => '192.168.0.69',
+        'hostname'     => '',
         'username'     => 'simrs',
-        'password'     => 'Edp@dmin3dp_69',
+        'password'     => '',
         'database'     => 'simrs',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
